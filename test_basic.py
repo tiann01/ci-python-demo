@@ -47,7 +47,7 @@ def test_calc_and_string():
 
     result = calc.add(10, 5)
     reversed_result = sp.reverse(str(result))
-    assert reversed_result == "51"  # 15 翻转是 51
+    assert reversed_result == "51"
 
     assert sp.is_palindrome("madam")
 
